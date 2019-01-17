@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Express Gift - Vendor</string>
+
+    <string name="qr_id_format" formatted="false">QR Id: %d</string>
+    <string name="qr_time_left_format" formatted="false">QR Time Left: %d seconds</string>
+
+    <string name="gift_selected_title">Gift Selected</string>
+    <string name="client_authorized_message">Client authorized QR Auth.</string>
+    <string name="client_declined_message">Client declined QR Auth.</string>
+    <string name="waiting_for_client">Waiting for client gift selection</string>
+</resources>

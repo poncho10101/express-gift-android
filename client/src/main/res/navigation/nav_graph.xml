@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/qrReaderFragment">
+
+    <fragment
+        android:id="@+id/qrReaderFragment"
+        android:name="com.alfonsosotelo.expressgift.client.ui.qrreader.QrReaderFragment"
+        android:label="@string/app_name" >
+        <action
+            android:id="@+id/actionFromQrReaderToGiftList"
+            app:destination="@id/giftListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/giftListFragment"
+        android:name="com.alfonsosotelo.expressgift.client.ui.giftlist.GiftListFragment"
+        android:label="@string/gift_list_title" />
+</navigation>

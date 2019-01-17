@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Express Gift - Client</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="cancel">Cancel</string>
+
+    <!--PERMISSIONS STRINGS-->
+    <string name="camera_permission_title">Camera Permissions</string>
+    <string name="camera_permission_explanation">We need camera permissions to scan qr codes</string>
+    <string name="permission_manually">You will need to enable permission manually</string>
+
+    <!--QR READER STRINGS-->
+    <string name="authorize_title">Authorize?</string>
+    <string name="authorize_qr_format" formatted="false">Qr id %d\nYou want to authorize vendor %s?</string>
+    <string name="qr_code_error">QR Code error or it\'s incorrect</string>
+
+    <!--GIFTS STRINGS-->
+    <string name="gift_list_title">Gift List</string>
+    <string name="qr_data_empty_error">QR data doesn\'t exists</string>
+    <string name="vendor_is_missing">Vendor data is missing or doesn\'t exists</string>
+    <string name="select_gift_title">Confirm Gift</string>
+    <string name="select_gift_format" formatted="false">Do you want to select %s gift?</string>
+</resources>
